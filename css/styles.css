@@ -1,12 +1,4 @@
-#sect1{
-    background-color: white;
+
+.player-console {
+  display: none;
 }
-#players{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-#avatarimg1,
-#avatarimg2{
-    width:100px;
-    }
-.
