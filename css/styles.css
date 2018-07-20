@@ -1,4 +1,14 @@
-
 .player-console {
   display: none;
+}
+#avatarimg2{
+  width: 100px;
+  height:100px;
+text-align: left;
+}
+#pn{
+  background-image:url("http://www.wallpapers4u.org/wp-content/uploads/dice_chain_metal_shadow_31562_1920x1080.jpg");
+  background-size: cover;
+  padding: 25px;
+  color:gold;
 }
