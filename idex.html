@@ -1,104 +1,18 @@
  <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <title>Pig Dice</title>
-    </head>
-    <body>
-<div class="container-fluid" id="pn">
-<div class="start-menu container">
-    <div class="jumbotron">
-        <h1>Let's play Pig Dice!</h1>
-<h1>PIG-PONG GAME</h2>
-    <p> The objective of Pig Dice Game is to score 100 points before the opponent(s) do(es). The Pig game is played with a single
-        six-sided die.</p>
-    <h2>Pig Dice Game Rules</h2>
-    <ul>
-        <li> In each turn a player rolls a die repeatedly until either a 1 is rolled or player decides to hold and pass on the
-            turn to its opponent.</li>
-        <li>The number plas is added to a temporary score. If the player rolls a 1, they lose their temporary score and turn
-            is passed to their opponent.</li>
-        <li> If player gets to roll any other number, they can decide to continue or hold and pass.</li>
-        <li>If player decides to hold, then their turn total (temporary score) is added to the overall score.</li>
-        <li> The first player to score 100 points wins the game.</li>
-    </ul>
-        <form id="player-1">
-            <div class="form-group">
-                <label for="player1Name">Player 1 Name:</label>
-                <input required class="player1Name form-control" type="text">
-<img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
-<p>
-    <strong>PlAyEr1 </strong>
-    <strike>bobo</strike>
-</p>
-            </div>
-        </form>
-        <form id="player-2">
-            <div class="form-group">
-                <label for="player2Name">Player 2 Name:</label>
-                <input required class="player2Name form-control" type="text">
-<img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
-<p>
-    <strong>PlAyEr2 </strong>
-    <strike>moh</strike>
-</p>
-            </div>
-        </form>
-        <button id="start" class="btn-info btn">Start</button>
-    </div>
-</div>
-</div>
-<div class="player-console container">
-    <button id="new-game" class="btn-success btn">NEW GAME</button>
-    <div class="row">
-        <div class="col-md-6">
-            <h2>Player 1:
-                <span id="player1Name">
-                    <span>
-            </h2>
-            <button id="player1-roll" class="btn-success btn">Roll</button>
-            <button id="player1-hold" class="btn-success btn">Hold</button>
-            <h2>Dice Roll:
-                <span id="die-roll-1"></span>
-            </h2>
-            <p>Round Total:
-                <span id="round-total-1"></span>
-            </p>
-            <p>Total Score:
-                <span id="total-score-1"></span>
-            </p>
-        </div>
-
-        <div class="col-md-6">
-            <h2>Player 2:
-                <span id="player2Name">
-                    <span>
-            </h2>
-            <button id="player2-roll" class="btn-success btn">Roll</button>
-            <button id="player2-hold" class="btn-success btn">Hold</button>
-            <h2>Dice Roll:
-                <span id="die-roll-2"></span>
-            </h2>
-            <p>Round Total:
-                <span id="round-total-2"></span>
-            </p>
-            <p>Total Score:
-                <span id="total-score-2"></span>
-            </p>
-        </div>
-    </div>
-</div>
-
-
-
-</body>
-</htm>
-        <!-- <div class="container" id="sect1">
-            <h1>PIG-PONG GAME</h2>
-            <p> The objective of Pig Dice Game is to score 100 points before the opponent(s) do(es). The Pig game is played with a single six-sided die.</p>
-            <h2>Pig Dice Game Rules</h2>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Pig Dice</title>
+</head>
+<body>
+    <div class="container-fluid" id="pn">
+        <div class="start-menu container">
+            <div class="jumbotron">
+                <h1>PIG-DICE GAME</h2>
+                <p> The objective of Pig Dice Game is to score 100 points before the opponent(s) do(es). The Pig game is played with a single six-sided die.</p>
+                <h2>Pig Dice Game Rules</h2>
                 <ul>
                     <li> In each turn a player rolls a die repeatedly until either a 1 is rolled or player decides to hold and pass on the turn to its opponent.</li>
                     <li>The number plas is added to a temporary score. If the player rolls a 1, they lose their temporary score and turn is passed to their opponent.</li>
@@ -106,39 +20,61 @@
                     <li>If player decides to hold, then their turn total (temporary score) is added to the overall score.</li>
                     <li> The first player to score 100 points wins the game.</li>
                 </ul>
-                 </div>
-        <div class="section2">
-        <section id="sect2" class="sect2">
-        <div id="sect2">
-            <form id="form1" class="">
-                <div id="sect2" class="f1c">
-                <img id="avatarimg1" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
-                <p><strong>PlAyEr1 </strong><strike>bobo</strike></p>
-                <div id="sect2" class="f1c">
-                <input type="text" placeholder="Player Name :)" name="playerName" id="userName" required>
-                <button id="player1-toss" class="btn-success btn">Roll</button>
-                <button id="player1-hold" class="btn-success btn">Hold</button>
-                <h2>Dice Roll: <span id="die-toss-1"></span></h2>
-                <p>Toss Total: <span id="total-1"></span></p>
-                <p>Player's Score: <span id="total-score1"></span></p>
-                <form>
-         </div>
-            </div>
-            <div id="players" class = "row">
-            <div id="sect3" class="f1c">
-                <img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
-                <p><strong>PlAyEr2 </strong><strike>moh</strike></p>
-                <div id="sect4" class="avat">
-                <input type="text" placeholder="Player Name :)" name="playerName" id="userName" required>
-                <button id="player1-toss" class="btn-success btn">Roll</button>
-                <button id="player1-hold" class="btn-success btn">Hold</button>
-                <h2>Dice Roll: <span id="die-toss-2"></span></h2>
-                <p>Roll Total: <span id="total-2"></span></p>
-                <p>Player's Score: <span id="total-score2"></span></p>
-                </div>
+                <form id="player-1">
+                    <div class="form-group">
+                        <label for="player1Name">Player 1 Name:</label>
+                        <input required class="player1Name form-control" type="text">
+                        <img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
+                        <p>
+                            <strong>PlAyEr1 </strong>
+                            <strike>bobo</strike>
+                        </p>
+                    </div>
+                </form>
+                <form id="player-2">
+                    <div class="form-group">
+                        <label for="player2Name">Player 2 Name:</label>
+                        <input required class="player2Name form-control" type="text">
+                        <img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
+                        <p>
+                            <strong>PlAyEr2 </strong>
+                            <strike>moh</strike>
+                        </p>
+                    </div>
+                </form>
+                <button id="start" class="btn-info btn">Start</button>
             </div>
         </div>
-        <script type="text/javascript" src="js/jquery-3.0.0.js"></script>
-        <script type="text/javascript" src="js/scripts.js"></script>
-    </body>
-</html> -->
+    </div>
+    <div class="player-console container" id="kj">
+                <button id="new-game" class="btn-success btn">NEW GAME</button>
+                <div class="row">
+                <div class="col-md-6">
+                <h2><strong>PlAyEr1 </strong>:
+                <span id="player1Name"></span></h2>
+                <img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
+                
+                <strike>moh</strike>    
+                <button id="player1-roll" class="btn-success btn">Roll</button>
+                <button id="player1-hold" class="btn-success btn">Hold</button>
+                <h2>Dice Roll:<span id="die-roll-1"></span></h2>
+                <p>Round Total: <span id="round-total-1"></span></p>
+                <p>Total Score: <span id="total-score-1"></span></p>
+            </div>
+
+              <div class="col-md-6">
+                <h2><strong>PlAyEr2:</strong>strong><span id="player2Name"></span></h2>
+                <img id="avatarimg2" src="/home/mourine/Documents/pig-dice/assets/avatar.gif" alt="">
+                <strike>moh</strike>
+                <button id="player2-roll" class="btn-success btn">Roll</button>
+                <button id="player2-hold" class="btn-success btn">Hold</button>
+                <h2>Dice Roll: <span id="die-roll-2"></span></h2>
+                <p>Round Total: <span id="round-total-2"></span></p>
+                <p>Total Score: <span id="total-score-2"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</htm>

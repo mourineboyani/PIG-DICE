@@ -1,5 +1,12 @@
-.player-console {
+#kj{
   display: none;
+   background-image:url("http://www.wallpapers4u.org/wp-content/uploads/dice_chain_metal_shadow_31562_1920x1080.jpg");
+  padding: 50px;
+  text-align: center;
+  color: goldenrod;
+  font-family: fantasy;
+  font-size: 2.5;
+
 }
 #avatarimg2{
   width: 100px;
@@ -7,8 +14,9 @@
 text-align: left;
 }
 #pn{
-  background-image:url("http://www.wallpapers4u.org/wp-content/uploads/dice_chain_metal_shadow_31562_1920x1080.jpg");
+  background-image: url("http://www.wallpapers4u.org/wp-content/uploads/dice_cube_black_blue_surface_60_1920x1080.jpg");
   background-size: cover;
   padding: 25px;
   color:gold;
+  
 }
